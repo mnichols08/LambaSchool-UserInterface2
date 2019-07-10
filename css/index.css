@@ -32,6 +32,9 @@ li {
 img.logo {
 	transition: filter 1s ease, transform 1s ease;
 	cursor: pointer;
+	position: relative;
+    top: 10px;
+}
 	}
 
 img.logo:hover {
@@ -118,13 +121,13 @@ section.first article {
 	max-width: 46%;
 }
 
-
 .img-break{
     background: url(../img/mid-page-accent.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: contain;
-    height: 12em;
+	height: 12em;
+	margin: 0 5%;
 }
 
 footer h4,
